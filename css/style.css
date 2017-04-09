@@ -32,21 +32,11 @@ Header section
 .part {
 	width: 20%;
 	height: inherit;
-/*	background-color: grey;*/
-}
-
-.one {
-/*	background-color: red;*/
 }
 
 .two {
-/*	background-color: pink;*/
 	flex-grow: 3;
 }
-.three {
-/*	background-color: yellow;*/
-}
-
 
 /*
 ======================================================================================
@@ -57,7 +47,6 @@ navigation section
 .nav-section{
 	height: 49px;
 	width: 100%;
-/*	background: tomato;*/
 	margin: 0 auto;
 }
 
@@ -200,7 +189,6 @@ main content
 }
 
 .welcomesentence2{
-/*	background: orange;*/
 	position: absolute;
 	right: 33%;
 	left:33%;

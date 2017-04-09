@@ -34,6 +34,10 @@ Header section
 	height: inherit;
 }
 
+/* ============== Flex-item ================*/
+.two {
+	flex-grow: 3;
+}
 
 /*
 ======================================================================================
@@ -109,125 +113,34 @@ ul li.active {
 }
 
 
+/*
+========================================================================================
+main content
+========================================================================================
+*/
 
-/* ============================== main-section   ==========================*/
-.body-section {
-	height: 800px;
+.maincontent{
+	height: 400px;
 	width: 100%;
-	background-color: #e6eaf2;
 	margin-top: 112px;
 }
 
-.section-one, .section-two {
-	height: 400px;
-	width: 100%;
-
-}
-
-.item-one {
-	height: 400px;
-	width: 28%;
+body {
 	background-color: #e6eaf2;
-	float: left;
-	margin-right: 8%; 
 }
 
-.item-two {
+.frm{
 	height: 400px;
-	width: 28%;
+	width: 600px;
+	margin: 0 auto;
 	background-color: #e6eaf2;
-	float: left;
-	margin-right: 8%;
 }
 
-
-.item-three {
-	height: 400px;
-	width: 28%;
-	background-color:#e6eaf2;
-	float: left;
+.comment{
+	height: 170px;
+	width: 500px;
+	resize: none;
 }
-
-.circle-box {
-	height: 140px;
-	width: 140px;
-	border-radius: 80px;
-	position: relative;
-	top: 5px;
-	margin: 0 auto;
-	background-color: #6c19a0;
-	color: white;
-}
-
-.circle-box > p {
-	position: relative;
-	top: 55px;
-	left: 24px;
-	font-size: 1.2em;
-	font-family: cursive;
-}
-
-.text-box {
-	height: 230px;
-	width: 90%;
-	position: relative;
-	top: 10px;
-	margin: 0 auto;
-	border-radius: 6px;
-	background-color:#605e60;
-	color: tomato;
-
-}
-
-.section-two > .item-one > .circle-box > p {
-	position: relative;
-	top: 55px;
-	left: 48px;
-}
-
-.section-two > .item-two > .circle-box > p {
-	position: relative;
-	top: 55px;
-	left: 39px;
-	}
-
-.section-one > .item-three > .circle-box > p {	
-	position: relative;
-	top: 55px;
-	left: 39px;
-}
-
-.section-two> .item-three > .circle-box > p {
-	position: relative;
-	top: 55px;
-	left: 25px;
-}
-
-.cvpara{
-	position: relative;
-	top: 25px;
-	left: 20px;
-	right: 5px;
-	font-size: 1.5em;
-	font-family: Calibri; 
-
-}
-
-
-
-.circle-box:hover{
-	height: 140px;
-	width: 150px;
-	border-radius: 85px;
-	position: relative;
-	top: 5px;
-	margin: 0 auto;
-	background-color: #6c19a0;
-	color: white;
-	cursor: pointer;
-}
-
-
 /*
 ==================================================================================
 Footer part
@@ -270,6 +183,7 @@ Footer part
 	margin-right: 25px;
 }
 
+
 .upper-left-part, .upper-right-part{
 	width: 34%;
 }
@@ -286,5 +200,7 @@ Footer part
 	height: 50px;
 	text-align: center;
 	font-family: cursive;
-
 }
+
+
+

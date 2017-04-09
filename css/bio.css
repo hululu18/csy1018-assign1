@@ -32,21 +32,13 @@ Header section
 .part {
 	width: 20%;
 	height: inherit;
-/*	background-color: grey;*/
 }
 
-.one {
-/*	background-color: red;*/
-}
+/* ============ FLex item =================*/
 
 .two {
-/*	background-color: pink;*/
 	flex-grow: 3;
 }
-.three {
-/*	background-color: yellow;*/
-}
-
 
 /*
 ======================================================================================
@@ -57,7 +49,6 @@ navigation section
 .nav-section{
 	height: 49px;
 	width: 100%;
-/*	background: tomato;*/
 	margin: 0 auto;
 }
 
@@ -146,8 +137,8 @@ main content
 	left: 37px;
 	height: 400px;
 	width: 38%;
-/*	background: grey;*/
 }
+
 .dbio-img{
 	height: 380px;
 	width: 270px;
@@ -170,7 +161,6 @@ main content
 	position: relative;
 	top: 20px;
 	left: 20px;
-/*	background: white;*/
 }
 
 .text-part, .text-part2  .h1{
@@ -183,6 +173,7 @@ main content
 	text-decoration: none;
 	font-size: 2em;
 	color: tomato;
+	width: 100%;
 	font-family: cursive;
 }
 

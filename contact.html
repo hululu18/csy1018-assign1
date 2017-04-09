@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/mobilecontact.css">
+
 </head>
 <body>
 	<div class="header">
 		<div class="part one">
-			
+
 		</div>
 		<div class="part two">
 			<div class="title-sec">
@@ -18,38 +19,44 @@
 			</div>
 			<div class="nav-section">
 				<ul class="topnav">
-						<li class="active"><a href="index.html">home</a></li>
+						<li><a href="index.html">home</a></li>
 						<li><a href="cv.html">cv</a></li>
 						<li><a href="bio.html">bio</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li class="active"><a href="contact.html">contact</a></li>
 					</ul>
 			</div>
 		</div>
 		<div class="part three"></div>	
 	</div>
-	<div class="main-content">
-		<img src="image/pashupathinath.jpg" class="temple" title="my photography">
-		<div class="myquote">
-			<p class="hello" title="short information about me">HELLO, </p>
-			<p title="short information about me">Its me Dixit Gurung from
-			 Kathmandu Nepal and currently studing in NAMI College under University of Northampton.</p>
-			<div class="button1" title="click here to get more information">	<a href="bio.html" class="buttonlink">know more</a>
 
-			</div>
-		</div>
-	</div>
 
-	<div class="welcome">
-			<div class="homeicon1">
-				<div class="homeicon2">
-					<img src="image/home.png" class="homeimg">
-				</div>		
-			</div>
-			<div class="welcomesentence1">
-				<div class="welcomesentence2">
-					<p>WELCOME TO HOME PAGE</p>	
-				</div>
-			</div>
+	<div class="maincontent">
+<!-- 		<h1>Connect Me Through</h1> -->
+
+		<form action="post" class="frm">
+		<fieldset>
+			<legend>Contact Form</legend>
+				
+				<p>
+				<input type="text" name="Firstname" value placeholder="First Name" class="Fname" required="">
+				<input type="text" name="lastname" value placeholder="Last Name" class="Lname" required=""></p><br>
+
+				<p><input type="text" name="address" placeholder="Address" required=""> </p> <br>
+
+				<p><input type="number" name="number" placeholder="Phone Number"></p> <br>
+
+				<p><input type="email" name="email" placeholder="Email Address" required=""></p> <br>
+
+				<p> Gender: male<input type="radio" name="radio"> Female<input type="radio" name="radio" >
+      	</p> <br> 
+
+      	<textarea class="comment" name="" id="" cols="30" rows="10" placeholder="Comment here !"></textarea>
+ 
+				<p> <input type="submit" value="submit">                       
+      	<input type="submit" value="cancel"> </p>
+
+			</fieldset>
+		</form>
 	</div>
 
 	<div class="footer">
