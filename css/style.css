@@ -1,0 +1,278 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-family: helvetica, sans-serif, "Times New Roman";
+	font-size: 12px;
+
+}
+/*
+=======================================================================================
+Header section
+=======================================================================================
+*/
+
+.header{
+	height: 112px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	z-index: 1;
+}
+
+.part {
+	width: 20%;
+	height: inherit;
+/*	background-color: grey;*/
+}
+
+.one {
+/*	background-color: red;*/
+}
+
+.two {
+/*	background-color: pink;*/
+	flex-grow: 3;
+}
+.three {
+/*	background-color: yellow;*/
+}
+
+
+/*
+======================================================================================
+navigation section
+======================================================================================
+*/
+
+.nav-section{
+	height: 49px;
+	width: 100%;
+/*	background: tomato;*/
+	margin: 0 auto;
+}
+
+.topnav{
+	list-style-type: none;
+}
+
+ul li.active {
+	background-color: lightgreen;
+}
+
+.nav-section {
+	margin-left: 30px;
+}
+
+.nav-section .topnav li{
+	height: 49px;
+	display: inline-block;
+	padding: 8px 8px;
+	width: 24%;
+	text-align: center;
+}
+
+.nav-section .topnav li a {
+	text-decoration: none;
+	display: block;
+	color: darkblue;
+	line-height: 30px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: none;
+}
+
+/* ============== when active ======*/
+.nav-section .topnav li:hover{
+	background-color: lightgreen;
+}
+
+/* ============== when hover ======*/
+.nav-section .topnav li:hover:not(.active) {
+	background-color: lightgrey;
+}
+
+.title-sec {
+	height: 62px;
+	width: 100%;
+	
+}
+
+.title-txt {
+	font-size: 2em;
+	font-family: cursive;
+	text-align: center;
+
+}
+
+.title-txt  a {
+	text-decoration: none;
+}
+
+.title-txt  a:hover {
+	color: grey;
+	text-shadow: 2px 2px 4px grey;
+}
+
+
+
+/*
+========================================================================================
+main content
+========================================================================================
+*/
+
+.main-content{
+	height: 650px;
+	width: 100%;
+/*	background-color: grey;*/
+	margin-top: 112px;
+}
+
+.temple{
+	height: inherit;
+	width: inherit;
+
+}
+
+.myquote{
+	position: absolute;
+	top: 240px;
+	right: 550px;
+	left: 80px;
+	font-family: cursive;
+	font-size: 1.5em;
+	color: tomato;
+}
+
+.button1{
+	height: 45px;
+	width: 80px;
+	margin-top: 20px;
+	font-size: .85em;
+	border-radius: 4px;
+	box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.4);
+	z-index: 2;
+	color: white;
+	background-color: teal;
+	border: red;
+	padding: 2px 10px 4px 4px;
+	cursor: pointer;
+
+}
+.button1:hover {
+	transform: scale(1.1);
+	background-color: #74AFAD;
+}
+
+.welcome{
+	height: 250px;
+	width: 100%;
+	background:white;
+}
+
+.homeimg{
+	height: 175px;
+	width: 175px;
+	cursor: pointer;	
+}
+
+.homeicon1{
+	height: 175px;
+	width: 100%;
+	
+}
+
+.homeicon2{
+	position: absolute;
+	right:43.5%;
+}
+
+.welcomesentence2{
+/*	background: orange;*/
+	position: absolute;
+	right: 33%;
+	left:33%;
+	color: grey;
+	text-align: center;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+
+/*
+==================================================================================
+Footer part
+==================================================================================
+*/
+.footer{
+	color: white;
+	height: 300px;
+	width: 100%;
+	background: #01060f;
+	background:-webkit-linear-gradient(90deg, #01060f, white);
+}
+
+.top-part{
+	height: 150px;
+	color: #4d5a70;
+	text-align: center;
+	font-size: 2.4em;
+	font-family: cursive;
+}
+.upper-left-part {
+	background-color: pink;
+}
+
+.upper-part{
+	height: 100px;
+}
+
+.first, .second, .third {
+	float: left;
+	text-align: center;
+}
+
+.upper-middle-part {
+	float: right;
+}
+
+.first, .second, .third {
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+/*.upper-left-part, .upper-middle-part, .upper-right-part{
+	height: 70px;
+	display: inline-block;
+	float: left;
+	margin: 0;
+}*/
+
+.upper-left-part, .upper-right-part{
+	width: 34%;
+}
+
+.fb, .mail, .gram, .tweet{
+	height: 50px;
+	padding: 8px 8px;
+	margin-left: 12px;
+	width: 50px;
+
+} 
+
+.lower-part{
+	height: 50px;
+	text-align: center;
+	font-family: cursive;
+
+}
